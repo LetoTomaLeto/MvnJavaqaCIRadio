@@ -8,6 +8,17 @@ public class Radio {
     private int minRadioStation = 0;
     private int currentRadioStation;
 
+    private int stationSum;
+
+    public Radio() {
+
+        stationSum = 10;
+    }
+
+    public Radio(int stationSum) {
+        this.stationSum = stationSum;
+    }
+
     public int getMaxVolume() {
         return maxVolume;
     }
