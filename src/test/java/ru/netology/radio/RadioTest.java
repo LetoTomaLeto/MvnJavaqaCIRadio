@@ -87,16 +87,4 @@ class RadioTest {
         rad.pressMinusVolume();
         assertEquals(3, rad.getCurrentVolume());
     }
-
-    @Test
-    public void testStationSum() {
-        Radio rad = new Radio(15);
-        rad.setCurrentRadioStation(5);
-        rad.pressNextStation();
-
-        int expected = 6;
-        int actual = rad.getCurrentRadioStation();
-
-        assertEquals(expected, actual);
-    }
 }
