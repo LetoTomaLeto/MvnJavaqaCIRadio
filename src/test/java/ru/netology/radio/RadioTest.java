@@ -62,7 +62,7 @@ public class RadioTest {
 
         Assertions.assertEquals(expected, actual);
     }
-    /*@Test
+    @Test
     public void shouldSetMinStationIfNext21() {
         radio.setCurrentStation(21);
 
@@ -72,7 +72,7 @@ public class RadioTest {
         int actual = radio.getMinStation();
 
         Assertions.assertEquals(expected,actual);
-    }*/
+    }
 
     @Test
 
