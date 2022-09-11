@@ -62,17 +62,6 @@ public class RadioTest {
 
         Assertions.assertEquals(expected, actual);
     }
-    @Test
-    public void shouldSetMinStationIfNext21() {
-        radio.setCurrentStation(21);
-
-        radio.prevStation();
-
-        int expected = 0;
-        int actual = radio.getMinStation();
-
-        Assertions.assertEquals(expected,actual);
-    }
 
     @Test
 
